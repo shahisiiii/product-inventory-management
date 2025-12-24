@@ -120,7 +120,7 @@ redis-cli ping
 ### In shell:
 
 ```bash
-from accounts.models import User
+from apps.accounts.models import User
 customer = User.objects.create_user(
     username='customer',
     email='customer@example.com',
