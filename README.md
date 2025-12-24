@@ -18,3 +18,27 @@ Redis Caching for improved performance
 PostgreSQL/SQLite database support
 
 PEP8 Compliant with pre-commit hooks
+
+## Tech Stack
+
+Python 3.11+
+
+Django 4.2
+
+Django REST Framework
+
+PostgreSQL
+
+Redis
+
+JWT Authentication
+
+# Setup Instructions
+
+## 1. Clone Repository
+
+```bash
+    git clone <repository-url>
+
+    cd backend
+```
