@@ -119,6 +119,7 @@ redis-cli ping
 
 ### In shell:
 
+### create a customer user
 ```bash
 from apps.accounts.models import User
 customer = User.objects.create_user(
@@ -128,6 +129,18 @@ customer = User.objects.create_user(
     role='CUSTOMER'
 )
 ```
+
+### create a Admin user
+```bash
+from apps.accounts.models import User
+customer = User.objects.create_user(
+    username='admin',
+    email='admin@example.com',
+    password='admin123',
+    role='ADMIN'
+)
+```
+
 ### Run Development Server
 ```bash
     python manage.py runserver
